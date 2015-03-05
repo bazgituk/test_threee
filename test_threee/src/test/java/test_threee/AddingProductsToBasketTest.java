@@ -1,7 +1,7 @@
 package test_threee;
 
 import static org.junit.Assert.*;
-import static org.junit.Assert.fail;
+//import static org.junit.Assert.fail;
 
 import org.baz.test.Basket;
 import org.baz.test.Product;
@@ -50,7 +50,7 @@ public class AddingProductsToBasketTest {
 	
 	@Test
 	public void addDifferentProductsTest() {
-		fail("break Hudson build");
+		//fail("break Hudson build");
 	}
 	
 }
