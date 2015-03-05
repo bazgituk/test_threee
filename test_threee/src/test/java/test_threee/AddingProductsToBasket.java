@@ -39,4 +39,18 @@ public class AddingProductsToBasket {
 		//fail("Not yet implemented");
 	}
 
+	@Test
+	public void addSingleProductMultipleTimesTest() {
+		basket.addProduct(product_one);;
+		basket.addProduct(product_one);
+		
+		assertSame("Product in twice", 2, basket.qtyForProducts(product_one));
+		
+	}
+	
+	@Test
+	public void addDifferentProductsTest() {
+		fail("break Hudson build");
+	}
+	
 }
