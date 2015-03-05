@@ -9,7 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class AddingProductsToBasket {
+public class AddingProductsToBasketTest {
 
 	Product product_one;
 	Product product_two;
