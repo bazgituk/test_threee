@@ -57,15 +57,6 @@ public class AddingProductsToBasketTest {
 		//fail("break Hudson build");
 	}
 	
-	@Test
-	public void removeProductFromBasketTest() {
-		basket.addProduct(product_one);
-		
-		assertSame("Placed product before remove", 1, basket.numberOfProducts());
-		
-		basket.removeProduct(product_one);
-		
-		assertSame("Removed product - No items in basket", 0, basket.numberOfProducts());
-	}
+
 	
 }
