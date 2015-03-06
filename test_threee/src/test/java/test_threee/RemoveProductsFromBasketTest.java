@@ -1,4 +1,4 @@
-package org.baz.test;
+package test_threee;
 
 import static org.junit.Assert.*;
 
