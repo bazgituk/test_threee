@@ -38,6 +38,12 @@ public class Basket {
 		
 		return 0;
 	}
+
+	public void removeProduct(Product product) {
+
+		if (products.containsKey(product))
+			products.remove(product);
+	}
 	
 	
 	
